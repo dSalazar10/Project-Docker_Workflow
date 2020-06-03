@@ -15,6 +15,10 @@ Udacity's Cloud DevOps Nanodegree Course 4 Project
 - Linting Dockerfile with hadolint
 - Linting python file with pylint
 
+![](screenshot-01.png)
+
 3) Containerize a python app using Docker
 - Local build and verify packages installed successfully
 - Deploy Docker image to AWS Elastic Container Registry
+
+![](screenshot-02.png)
