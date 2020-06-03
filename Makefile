@@ -13,16 +13,16 @@ setup:
 install:
 	# This should be run from inside a virtualenv
 	pip3 install --upgrade pip &&\
-		pip3 install -r requirements.txt
+	pip3 install -r requirements.txt
 	sudo wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.17.6/hadolint-Linux-x86_64
 	sudo chmod +x /bin/hadolint
 	
 validate-circleci:
-    circleci config process /.circleci/config.yml
+	circleci config process /.circleci/config.yml
 
 run-circleci-local:
-    # See https://circleci.com/docs/2.0/local-cli/#running-a-job
-    circleci local execute
+	# See https://circleci.com/docs/2.0/local-cli/#running-a-job
+	circleci local execute
 
 test:
 	# Additional, optional, tests could go here
