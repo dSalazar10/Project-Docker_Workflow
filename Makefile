@@ -1,4 +1,3 @@
-#!/bin/bash
 ## Student instructions
 # Dockerfile should pass hadolint
 # app.py should pass pylint
