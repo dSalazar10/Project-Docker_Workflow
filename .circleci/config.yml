@@ -12,10 +12,8 @@ jobs:
             - v1-dependencies-
       - run:
           name: install dependencies
-          command: >
-            make setup
-            source venv/bin/activate
-            make install
+          command: |
+            make setup source venv/bin/activate make install
       - save_cache:
           paths:
             - ./venv
@@ -24,4 +22,4 @@ jobs:
           name: run lint
           command: |
             source venv/bin/activate
-            make lint           
+            make lint
