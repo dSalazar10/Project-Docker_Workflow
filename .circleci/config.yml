@@ -14,7 +14,7 @@ jobs:
           name: install dependencies
           command: >
             python3 -m venv ~/.app
-            source app/bin/activate
+            source /app/bin/activate
             make install
             
       - save_cache:
@@ -24,5 +24,5 @@ jobs:
       - run:
           name: run lint
           command: |
-            source app/bin/activate
+            source /app/bin/activate
             make lint           
