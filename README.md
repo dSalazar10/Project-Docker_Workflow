@@ -2,7 +2,8 @@
 
 # Project-Docker_Workflow
 Udacity's Cloud DevOps Nanodegree Course 4 Project
-Part 1 - Containerizing an application
+
+Part 1 - Containerizing an application with Docker
 
 1) Setup a local development environment
 - Installed python
