@@ -19,6 +19,11 @@ Udacity's Cloud DevOps Nanodegree Course 4 Project
 
 3) Containerize a python app using Docker
 - Local build and verify packages installed successfully
+`docker build --tag=app .`
+- Check to see that it was built successfully
+`docker image ls`
+- Run the docker to see if it was setup properly
+`docker run -p 80:80 app`
 - Deploy Docker image to AWS Elastic Container Registry
 
 ![](screenshot-02.png)
