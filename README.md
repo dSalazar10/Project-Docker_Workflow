@@ -12,6 +12,9 @@ Udacity's Cloud DevOps Nanodegree Course 4 Project
 - Installing packages using pip3
 - Testing python code using pytest
 - Validating build configurations using CircleCI
+
+![](screenshot-00.png)
+
 - Linting Dockerfile with hadolint
 - Linting python file with pylint
 
